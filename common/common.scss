@@ -1,3 +1,5 @@
-.sidebar-section[data-section-name="chat-channels"] {
+/*.sidebar-section[data-section-name="chat-channels"], */
+.sidebar-section[data-section-name="messages"],
+.sidebar-section[data-section-name="user-threads"] {
     display: none !important;
 }
