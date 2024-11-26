@@ -3,3 +3,12 @@
 .sidebar-section[data-section-name="user-threads"] {
     display: none !important;
 }
+
+/* Hide the compose button in user briefs */
+li.compose-pm {
+    display: none !important;
+}
+
+li:has(button.compose-pm) {
+    display: none !important;
+}
